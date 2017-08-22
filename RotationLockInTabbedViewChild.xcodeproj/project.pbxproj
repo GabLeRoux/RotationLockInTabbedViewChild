@@ -8,14 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		D14992761F4CA58600C290A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D14992751F4CA58600C290A7 /* main.m */; };
-		D14992791F4CA58600C290A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D14992781F4CA58600C290A7 /* AppDelegate.m */; };
-		D149927C1F4CA58600C290A7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D149927B1F4CA58600C290A7 /* FirstViewController.m */; };
-		D149927F1F4CA58600C290A7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D149927E1F4CA58600C290A7 /* SecondViewController.m */; };
 		D14992821F4CA58600C290A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D14992801F4CA58600C290A7 /* Main.storyboard */; };
 		D14992841F4CA58600C290A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D14992831F4CA58600C290A7 /* Assets.xcassets */; };
 		D14992871F4CA58600C290A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D14992851F4CA58600C290A7 /* LaunchScreen.storyboard */; };
 		D14992921F4CA58700C290A7 /* RotationLockInTabbedViewChildTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D14992911F4CA58700C290A7 /* RotationLockInTabbedViewChildTests.m */; };
 		D149929D1F4CA58700C290A7 /* RotationLockInTabbedViewChildUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D149929C1F4CA58700C290A7 /* RotationLockInTabbedViewChildUITests.m */; };
+		D14992B01F4CA70600C290A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D14992781F4CA58600C290A7 /* AppDelegate.m */; };
+		D14992B11F4CA70600C290A7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D149927B1F4CA58600C290A7 /* FirstViewController.m */; };
+		D14992B21F4CA70600C290A7 /* PortraitUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D14992AB1F4CA5B900C290A7 /* PortraitUIViewController.m */; };
+		D14992B31F4CA70600C290A7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D14992AD1F4CA5B900C290A7 /* RootViewController.m */; };
+		D14992B41F4CA70600C290A7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D149927E1F4CA58600C290A7 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		D14992981F4CA58700C290A7 /* RotationLockInTabbedViewChildUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RotationLockInTabbedViewChildUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D149929C1F4CA58700C290A7 /* RotationLockInTabbedViewChildUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotationLockInTabbedViewChildUITests.m; sourceTree = "<group>"; };
 		D149929E1F4CA58700C290A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D14992AA1F4CA5B900C290A7 /* PortraitUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortraitUIViewController.h; sourceTree = "<group>"; };
+		D14992AB1F4CA5B900C290A7 /* PortraitUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortraitUIViewController.m; sourceTree = "<group>"; };
+		D14992AC1F4CA5B900C290A7 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		D14992AD1F4CA5B900C290A7 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +114,10 @@
 				D14992781F4CA58600C290A7 /* AppDelegate.m */,
 				D149927A1F4CA58600C290A7 /* FirstViewController.h */,
 				D149927B1F4CA58600C290A7 /* FirstViewController.m */,
+				D14992AA1F4CA5B900C290A7 /* PortraitUIViewController.h */,
+				D14992AB1F4CA5B900C290A7 /* PortraitUIViewController.m */,
+				D14992AC1F4CA5B900C290A7 /* RootViewController.h */,
+				D14992AD1F4CA5B900C290A7 /* RootViewController.m */,
 				D149927D1F4CA58600C290A7 /* SecondViewController.h */,
 				D149927E1F4CA58600C290A7 /* SecondViewController.m */,
 				D14992801F4CA58600C290A7 /* Main.storyboard */,
@@ -212,7 +222,7 @@
 				TargetAttributes = {
 					D14992701F4CA58600C290A7 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = FNAM3JM6CF;
+						DevelopmentTeam = F9N96QGL6Y;
 						ProvisioningStyle = Automatic;
 					};
 					D149928C1F4CA58700C290A7 = {
@@ -281,10 +291,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D149927F1F4CA58600C290A7 /* SecondViewController.m in Sources */,
-				D14992791F4CA58600C290A7 /* AppDelegate.m in Sources */,
-				D149927C1F4CA58600C290A7 /* FirstViewController.m in Sources */,
+				D14992B41F4CA70600C290A7 /* SecondViewController.m in Sources */,
+				D14992B01F4CA70600C290A7 /* AppDelegate.m in Sources */,
+				D14992B11F4CA70600C290A7 /* FirstViewController.m in Sources */,
 				D14992761F4CA58600C290A7 /* main.m in Sources */,
+				D14992B21F4CA70600C290A7 /* PortraitUIViewController.m in Sources */,
+				D14992B31F4CA70600C290A7 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,7 +447,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = FNAM3JM6CF;
+				DEVELOPMENT_TEAM = F9N96QGL6Y;
 				INFOPLIST_FILE = RotationLockInTabbedViewChild/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gableroux.RotationLockInTabbedViewChild;
@@ -447,7 +459,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = FNAM3JM6CF;
+				DEVELOPMENT_TEAM = F9N96QGL6Y;
 				INFOPLIST_FILE = RotationLockInTabbedViewChild/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gableroux.RotationLockInTabbedViewChild;
